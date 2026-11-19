@@ -12,6 +12,7 @@ namespace ZombieParty.Models
         [Required(AllowEmptyStrings = false, ErrorMessage = "ValidationRequired")]
         public string TypeName { get; set; }
         [Display(Name= "Point")]
+        [Required(ErrorMessage = "ValidationRequired")]
         [Range(2, 5, ErrorMessage = "ValidationRange")]
         public int Point { get; set; }
         [Display(Name = "Zombies")]

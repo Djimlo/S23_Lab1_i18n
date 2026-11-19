@@ -124,13 +124,13 @@
     <value>Name</value>
   </data>
   <data name="ValidationRange" xml:space="preserve">
-    <value>0 requires a value between 1 and 2.</value>
+    <value>{0} requires a value between {1} and {2}.</value>
   </data>
   <data name="ValidationRequired" xml:space="preserve">
-    <value>0 is required.</value>
+    <value>{0} is required.</value>
   </data>
   <data name="ValidationStringMinMax" xml:space="preserve">
-    <value>0 must have between 2 and 1 characters.</value>
+    <value>{0} must have between {2} and {1} characters.</value>
   </data>
   <data name="Zombies" xml:space="preserve">
     <value>Zombies</value>
